@@ -532,80 +532,6 @@ export default function Home() {
     </motion.div>
 
 
-    {/* ================= DILIP B.L. ================= */}
-    <motion.div
-      className="grid md:grid-cols-2 gap-12 items-center mb-24"
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.8 }}
-    >
-
-      {/* Dilip Information - Left */}
-      <div className="md:order-1">
-
-        <p className="text-yellow-400 font-semibold uppercase tracking-widest">
-          Vice President & Chief Operating Officer
-        </p>
-
-        <h3 className="text-4xl md:text-5xl font-bold mt-3">
-          Dilip B.L.
-        </h3>
-
-        {/* Academic Background */}
-        <div className="mt-5 border-l-4 border-yellow-500 pl-5">
-
-          <p className="text-yellow-400 font-semibold text-lg">
-            Presidency University
-          </p>
-
-          <p className="text-gray-400 mt-1">
-            Bangalore, India
-          </p>
-
-        </div>
-
-        <p className="mt-8 text-lg text-gray-300 leading-8">
-          Dilip B.L. is a strong, highly motivated and driven professional
-          who brings a focused approach to leadership, operations and
-          organizational growth. As Vice President and Chief Operating
-          Officer of PathPilot Consulting, he plays an important role in
-          strengthening organizational operations, coordinating execution
-          and supporting the company&apos;s strategic growth. His leadership
-          is centered on building efficient systems, improving operational
-          performance and turning ideas into meaningful outcomes. With a
-          commitment to continuous improvement and purposeful execution,
-          he contributes to building PathPilot into a trusted, structured
-          and growth-oriented organization.
-        </p>
-
-        <div className="mt-8">
-
-          <span className="inline-block px-5 py-2 rounded-full border border-yellow-500 text-yellow-400 text-sm font-semibold">
-            Leadership • Operations • Growth
-          </span>
-
-        </div>
-
-      </div>
-
-
-      {/* Dilip Photo - Right */}
-      <div className="flex justify-center md:justify-end md:order-2">
-
-        <Image
-          src="/mdcoo.jpg"
-          alt="Dilip B.L. - Vice President & Chief Operating Officer"
-          width={400}
-          height={500}
-          className="rounded-2xl shadow-2xl border-2 border-yellow-500 hover:scale-105 transition duration-500"
-        />
-
-      </div>
-
-    </motion.div>
-
-
     {/* ================= CO-FOUNDER & CMO ================= */}
     <motion.div
       className="grid md:grid-cols-2 gap-12 items-center mb-24"
@@ -677,76 +603,6 @@ export default function Home() {
     </motion.div>
 
 
-    {/* ================= CFO ================= */}
-    <motion.div
-      className="grid md:grid-cols-2 gap-12 items-center mb-24"
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.8 }}
-    >
-
-      {/* Harshini Photo - Left */}
-      <div className="flex justify-center md:justify-start md:order-1">
-
-        <Image
-          src="/cfo.jpg"
-          alt="Harshini M. R - Chief Financial Officer"
-          width={400}
-          height={500}
-          className="rounded-2xl shadow-2xl border-2 border-yellow-500 hover:scale-105 transition duration-500"
-        />
-
-      </div>
-
-
-      {/* Harshini Information - Right */}
-      <div className="md:order-2">
-
-        <p className="text-yellow-400 font-semibold uppercase tracking-widest">
-          Chief Financial Officer
-        </p>
-
-        <h3 className="text-4xl md:text-5xl font-bold mt-3">
-          Harshini M. R
-        </h3>
-
-        {/* Academic Background */}
-        <div className="mt-5 border-l-4 border-yellow-500 pl-5">
-
-          <p className="text-yellow-400 font-semibold text-lg">
-            B.Com – Finance & Accounting
-          </p>
-
-          <p className="text-gray-400 mt-1">
-            Presidency University, Bangalore
-          </p>
-
-        </div>
-
-        <p className="mt-8 text-lg text-gray-300 leading-8">
-          Harshini M. R holds a Bachelor of Commerce degree specializing
-          in Finance and Accounting from Presidency University, Bangalore.
-          As Chief Financial Officer, she oversees financial planning,
-          budgeting and financial operations at PathPilot Consulting.
-          She brings a structured approach to financial management and
-          supports responsible decision-making as the organization grows.
-          Her focus is on building strong financial practices that
-          contribute to PathPilot&apos;s long-term sustainability and growth.
-        </p>
-
-        <div className="mt-8">
-
-          <span className="inline-block px-5 py-2 rounded-full border border-yellow-500 text-yellow-400 text-sm font-semibold">
-            Finance • Planning • Sustainability
-          </span>
-
-        </div>
-
-      </div>
-
-    </motion.div>
-
 
     {/* ================= FUTURE LEADERSHIP ================= */}
     <div className="mt-8 text-center">
@@ -782,10 +638,6 @@ export default function Home() {
 
         <p className="mt-3 text-xl">
           📸 Instagram: @pathpilotconsulting.official
-        </p>
-
-        <p className="mt-3 text-xl">
-          🌐 Website: pathpilot-consulting.vercel.app
         </p>
 
 
